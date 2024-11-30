@@ -10,12 +10,12 @@ public class MainApp {
 		
 		//Nhap vao chieu dai chieu rong hinh chu nhat
 		System.out.println("Nhap vao chieu dai, chieu rong");
-		int chieuDai = sc.nextInt();
-		int chieuRong = sc.nextInt();
+		int cd = sc.nextInt();
+		int cr = sc.nextInt();
 		
 		//xuat kq
-		System.out.println("Chu vi hinh chu nhat la: " + (2 * chieuDai + chieuRong * 2));
-		System.out.println("Dien tich hinh chu nhat la: " + chieuDai*chieuRong);
+		System.out.println("Chu vi hinh chu nhat la: " + (2 * cd + cr * 2));
+		System.out.println("Dien tich hinh chu nhat la: " + cd*cr);
 		
 	
 	}
