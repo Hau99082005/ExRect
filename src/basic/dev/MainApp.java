@@ -13,13 +13,9 @@ public class MainApp {
 		int chieuDai = sc.nextInt();
 		int chieuRong = sc.nextInt();
 		
-		//tinhtoan
-		int chuVi = 2 * (chieuDai + chieuRong);
-		int dienTich = chieuDai * chieuRong;
-		
 		//xuat kq
-		System.out.println("Chu vi hinh chu nhat la: " +chuVi);
-		System.out.println("Dien tich hinh chu nhat la: " +dienTich);
+		System.out.println("Chu vi hinh chu nhat la: " + (2 * chieuDai + chieuRong * 2));
+		System.out.println("Dien tich hinh chu nhat la: " + chieuDai*chieuRong);
 		
 	
 	}
